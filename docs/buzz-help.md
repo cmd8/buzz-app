@@ -44,6 +44,10 @@ the interface unless an available tool actually supports that action.
   to address a channel member. Typing a name alone does not guarantee a
   notification. Selecting someone outside the channel does not grant access;
   inviting them requires an explicit decision from someone with permission.
+- **New messages** marks the first known unread incoming channel message when
+  you enter. The divider stays in place for that visit as you read and new
+  messages arrive. It may be absent when entry rows or unread evidence are incomplete,
+  or read intent changes before the boundary can be established.
 - **Communities** have their own channels, people, and agents. Switching
   communities changes the available context. You and the person asking may have
   different channel access. A link alone never grants access.
